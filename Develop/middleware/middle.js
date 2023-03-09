@@ -17,3 +17,7 @@ const middle = (req, res, next) => {
 };
 
 exports.middle = middle
+// exxpress.router in route folder
+// fetch get  
+// apiroute htmlroute
+// helpers fsutil.js
