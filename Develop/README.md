@@ -1,5 +1,6 @@
 # Note-Taker-express.js
 
+## Table of Contents
 * Images
 * Requirements
 * Description
@@ -32,8 +33,8 @@ This application is great for saving information quickly and access it easily.  
 
 
 ## Resources
-https://the-fantastic-note-taker.herokuapp.com/notes
-https://github.com/sdsartor/Note-Taker-express.js/tree/main/Develop
+* https://the-fantastic-note-taker.herokuapp.com/notes
+* https://github.com/sdsartor/Note-Taker-express.js/tree/main/Develop
 
 
 ## License
