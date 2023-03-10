@@ -12,6 +12,7 @@
 
 
 ## Images
+![Note Taker](https://user-images.githubusercontent.com/116858656/224250107-e5ad40dd-7cea-432c-82bc-def62b0c6eb0.gif)
 
 
 ## Requirements
