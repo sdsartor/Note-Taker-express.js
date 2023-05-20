@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 // this slash acknowledges that the code is wanting to use an html file.
-app.use('/', index)
+app.use('/notes', index)
 
 // This will pop up if the code is capable of being pulled by the server.
 app.listen(PORT, () =>

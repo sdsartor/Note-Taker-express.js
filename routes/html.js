@@ -3,13 +3,13 @@ const router = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
 
 // Route made for index.html
-router.get('/', (req, res) => {
+router.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'))
 })
 
 
 // Route made for notes.html.
-router.get('/', (req, res) => {
+router.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/notes.html'))
 })
 

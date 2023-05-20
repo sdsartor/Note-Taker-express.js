@@ -1,12 +1,12 @@
 const router = require('express').Router();
 // const express = require('express');
 const { readAndAppend, readFromFile } = require('../helpers/fsUtils');
-const { v4: uuidv4 } = require('uuid');
+
 // This calls in the helpers to be used in the code below.
 
 
 // Readfromfile allows the data to be read from inside the db.json file.
-router.get('/', (req, res) => {
+router.get('/api/notes', (req, res) => {
     readFromFile('../db/db.json')
   .then(data => {
         res.json(data)
@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
     })
 });
 // The error will be thrown if the router data is unreadable, and will post notes if the code is readable.
-router.post("/", async function (req, res) {
+router.post("/api/notes", async function (req, res) {
   //  New variable used to create a new note.
     let newNote = {
       title: req.body.title,
